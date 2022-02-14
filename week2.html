@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Web Art Week3</title>
+    <link rel="shortcut icon" href="5.png">
+    <!-- <meta charset="utf-8"> -->
+    <style>
+      body {
+
+        /* background-image:url("2.jpg"); */
+        background-color: #a6bcde;
+
+      }
+      #part5 {
+        color:#ed95bb;
+        text-shadow: 3px 3px 1px blue;
+        border: 6px solid #db46b9;
+        width: 420px;
+        left: 50vw;
+        top: 10vh;
+        font-size: 90px;
+        font-family: Helvetica;
+        text-align: right;
+        z-index: 4;
+      }
+      video {
+        position: absolute;
+        width: 15vw;
+        height:30vw;
+        top: 10vw;
+        left: 80vw;
+        /* border-radius: 10px 10px 10px 10px; */
+        z-index: 3;
+      }
+
+      video#bgs1 {
+        position: relative;
+        width: 300px;
+        height:200px;
+        top: 80px;
+        left: 10px;
+        autoplay: 'autoplay';
+        z-index: 4;
+      }
+
+      iframe#youtube1 {
+        position: absolute;
+        width: 30vw;
+        height:15vw;
+        top: 35vw;
+        left: 30vw;
+        border-radius: 0px 100px 10px 0px;
+        z-index: 3;
+      }
+      iframe#youtube2 {
+        position: absolute;
+        width: 50px;
+        height:50px;
+        top: 1vw;
+        right: 7vw;
+        border-radius: 10px 10px 10px 10px;
+        z-index: 3;
+      }
+
+
+      img#img1 {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 33.33vw;
+        height: 50vh;
+        opacity: .9;
+        z-index: -1;
+
+      }
+      img#img2 {
+        position: fixed;
+        top: 0px;
+        left: 33.33vw;
+        width: 33.33vw;
+        height: 50vh;
+        opacity: .8;
+        z-index: -1;
+
+      }
+      img#img3 {
+        position: fixed;
+        top: 0px;
+        left: 66.66vw;
+        width: 33.33vw;
+        height: 50vh;
+        opacity: .7;
+        z-index: -1;
+
+      }
+      img#img4 {
+        position: fixed;
+        top: 50vh;
+        left: 0px;
+        width: 33.33vw;
+        height: 50vh;
+        opacity: .7;
+        z-index: -1;
+
+      }
+      img#img5 {
+        position: fixed;
+        top: 50vh;
+        left: 33.33vw;
+        width: 33.33vw;
+        height: 50vh;
+        opacity: .8;
+        z-index: -1;
+
+      }
+      img#img6 {
+        position: fixed;
+        top: 50vh;
+        left: 66.66vw;
+        width: 33.33vw;
+        height: 50vh;
+        opacity: .9;
+        z-index: -1;
+      }
+
+
+
+      audio{
+        position: fixed;
+        width: 10vw;
+        height:10vw;
+        top: 15vw;
+        left: 60vw;
+        border-radius: 10px 10px 0px 40px;
+        z-index: 3;
+
+      }
+      #part1{
+        position: absolute;
+        color:#0d8c73;
+        background-color:#94e0d1;
+        text-shadow: 1px 3px 1px white;
+        border: 6px solid #0d8c73;
+        width: 300px;
+        left: 500px;
+        top: 100px;
+        font-size: 20px;
+        opacity: .8;
+        font-family: Helvetica;
+        z-index: 3;
+      }
+
+      #part2{
+        position: absolute;
+        color:#0d868c;
+        background-color:#939999;
+        text-shadow: 5px 3px 2px blue;
+        width: 200px;
+        right: 200px;
+        top: 400px;
+        font-size: 12px;
+        opacity: .1;
+        font-family: Helvetica;
+        z-index: 2;
+      }
+      #part3{
+        position:fixed;
+        color:#1c591d;
+        /* background-color:#58614e; */
+        text-shadow: 1px 6px 5px #304d10;
+        /* border: 2px solid #304d10; */
+        width: 66vw;
+        left: 1vw;
+        top: 0px;
+        font-size: 90px;
+        opacity: .4;
+        text-align: right;
+        font-family: Helvetica;
+        z-index: 2;
+      }
+      #part4{
+        position:fixed;
+        color:#521630;
+        /* background-color:#58614e; */
+        text-shadow: 3px 1px 2px #ed95bb;
+        /* border: 2px solid #304d10; */
+        width: 33vw;
+        left: 66vw;
+        top: 0px;
+        font-size: 190px;
+        opacity: .3;
+        text-align: left;
+        font-family: Helvetica;
+        z-index: 1;
+      }
+      #link1:link{
+        color:black;
+      }
+      #link1:visited{
+        color:green;
+      }
+      #link1:hover{
+        color:purple;
+        font-size: 30px;
+        text-shadow: 2px 2px 2px grey;
+      }
+      #link2:link{
+        color:blue;
+      }
+      #link2:hover{
+        font-size: 50px;
+        text-shadow: 2px 2px 2px grey;
+        color:purple;
+      }
+      #link2:active{
+        color:green;
+      }
+
+
+
+
+
+    </style>
+  </head>
+  <body>
+    <img id="img4" src="1.jpg">
+    <img id="img5" src="1.jpg">
+    <img id="img6" src="1.jpg">
+    <h1>
+      <div id= part5><a id=link2 href="https://en.wikipedia.org/wiki/Valentine%27s_Day" target="_blank">Happy Valentine!</a></div>
+      </h1>
+    <h4>
+      <div id = part1><a id=link1 href="https://www.poetryfoundation.org/poems/48860/the-raven" target="_blank">Once upon a midnight <span>dreary as I pondered</span> weak and weary over many a quaint and curious</a></div>
+      <div id = part2>volume of forgotten lore as I nodded nearly napping suddenly there came a tapping as of someone gently rapping rapping on my chamber door.</div>
+      <!-- https://www.poetryfoundation.org/poems/48860/the-raven -->
+      <div id = part3>Acamptopappus sphaerocephalus, only of two species in this genus, inhabits desert areas of California, Nevada and south Arizona, plus some regions further north, along the Colorado River corridor. Flowerheads have no ray florets, only disc florets, numbering between 13 and 27, and are produced in large numbers, in open, flat-topped clusters. Florets have five pale yellow lobes, centered on a fused column of style and anthers. The globe-shaped involucre is about a third of an inch wide, ringed by several rows of small, ovate phyllaries, mostly colored light green but yellowish towards the base. Stems branch profusely, growing upwards or at an angle. Young stems are pale green in color, while older stems become woody, with greyish, shredding bark. Leaves are simple, short and narrow, angled upwards at opposite intervals.
+      <!-- https://www.americansouthwest.net/plants/wildflowers/acamptopappus-sphaerocephalus.html -->
+      Stems and leaves of ambrosia dumosa, a small shrub, have a covering of soft, strigose hairs, giving them a greyish appearance. Stems are rigid and much branched, bearing alternate or (less often) opposite leaves at closely-spaced intervals. Leaves are divided up to three times into short, rounded segments, and they usually have short stalks, up to a third of an inch long. The inflorescence is a terminal, elongated cluster of both staminate and pistillate flowerheads, subtended by narrow, pointed bracts which are initially green and flexible, but later darken in color to purple, and harden, forming a bur, enclosing the spherical fruit. Pistillate heads have just one or (usually) two florets, while staminate heads contain between 8 and 15 or more, and are subtended by one row of green phyllaries, which are fused at the base.</div>
+      <!-- https://www.americansouthwest.net/plants/wildflowers/ambrosia-dumosa.html -->
+      <div id = part4>volume of forgotten lore as I nodded nearly napping suddenly there came a tapping as of someone gently rapping rapping on my chamber door.</div>
+    </h4>
+
+
+
+    <iframe id=youtube1 src="https://www.youtube.com/embed/GurozK-HRTw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe id=youtube2 src="https://www.youtube.com/embed/x0EQXenao0w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <!-- <iframe id=youtube2 width="560" height="315" src="https://www.youtube.com/embed/HIMH22pIs8g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+    <!-- <iframe id=youtube2 width="560" height="315" src="https://www.youtube.com/embed/p9pf5EyOgcs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+    <a href="https://theo.land/tutorial/one.html" target="_blank"><img id="img1" src="2.jpg"></a>
+    <a href="https://www.poetryfoundation.org/poems/48860/the-raven" target="_blank"><img id="img2" src="2.jpg"></a>
+    <a href="https://www.americansouthwest.net/plants/wildflowers/acamptopappus-sphaerocephalus.html" target="_blank"><img id="img3" src="2.jpg"></a>
+
+
+    <!-- <video id="v1" loop controls src="v1.mp4" type="video/mp4"></video> -->
+
+    <audio controls src="rain.wav"></audio>
+    <video loop controls src="v2.mp4" type="video/mp4"></video>
+    <video id = bgs1 loop controls src="11.mov" type="video/mov"></video>
+
+
+  </body>
+</html>
