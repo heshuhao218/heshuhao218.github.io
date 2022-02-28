@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Web Art Week4</title>
+    <link rel="shortcut icon" href="5.png">
+    <!-- <meta charset="utf-8"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="js/t3.js"></script>
+    <style>
+      body {
+        background-color: #ffb88c;
+        z-index:-2;
+      }
+
+      img#img1 {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 33.33vw;
+        height: 33.33vh;
+        opacity: .9;
+        z-index: -1;
+        /* display:none; */
+
+      }
+      img#img2 {
+        position: fixed;
+        top: 0px;
+        left: 33.33vw;
+        width: 33.33vw;
+        height: 33.33vh;
+        opacity: .9;
+        z-index: -1;
+
+      }
+      img#img3 {
+        position: fixed;
+        top: 0px;
+        left: 66.66vw;
+        width: 33.33vw;
+        height: 33.33vh;
+        opacity: .9;
+        z-index: -1;
+
+      }
+      img#img4 {
+        position: fixed;
+        top: 33.33vh;
+        left: 0px;
+        width: 33.33vw;
+        height: 33.33vh;
+        opacity: .9;
+        z-index: -1;
+
+      }
+      img#img5 {
+        position: fixed;
+        top: 33.33vh;
+        left: 33.33vw;
+        width: 33.33vw;
+        height: 33.33vh;
+        opacity: .9;
+        z-index: -1;
+
+      }
+      img#img6 {
+        position: fixed;
+        top: 33.33vh;
+        left: 66.66vw;
+        width: 33.33vw;
+        height: 33.33vh;
+        opacity: .9;
+        z-index: -1;
+      }
+      img#img7 {
+        position: fixed;
+        top: 66.66vh;
+        left: 0px;
+        width: 33.33vw;
+        height: 33.33vh;
+        opacity: .9;
+        z-index: -1;
+      }
+      img#img8 {
+        position: fixed;
+        top: 66.66vh;
+        left: 33.33vw;
+        width: 33.33vw;
+        height: 33.33vh;
+        opacity: .9;
+        z-index: -1;
+      }
+      img#img9 {
+        position: fixed;
+        top: 66.66vh;
+        left: 66.66vw;
+        width: 33.33vw;
+        height: 33.33vh;
+        opacity: .9;
+        z-index: -1;
+      }
+
+      img#icon1{
+        position: fixed;
+        top: 0vh;
+        left: 50vw;
+        width: 30px;
+        height: 30px;
+        z-index:1;
+      }
+
+      video#bgs1 {
+        position: fixed;
+        width: 200px;
+        height:120px;
+        top: 0px;
+        right: 0px;
+        autoplay: 'autoplay';
+        z-index: 3;
+      }
+
+      video#catv1 {
+        position: relative;
+        width: 400px;
+        height:200px;
+        top: 50vh;
+        left: 10vw;
+        /* autoplay: 'autoplay'; */
+        z-index: 3;
+      }
+      video#catv2 {
+        position: fixed;
+        width: 300px;
+        height:300px;
+        top: 55vh;
+        left: 70vw;
+        autoplay: 'autoplay';
+        border-radius: 10px 10px 10px 10px;
+        z-index: 4;
+        display:none;
+      }
+
+      h1{
+        position: absolute;
+        color:#ffa74f;
+        text-shadow: 20px 10px 10px #946e26;
+        text-align:right;
+        width: 300px;
+        left: 5vw;
+        top: 5vh;
+        font-size: 80px;
+        opacity: .8;
+        font-family: Helvetica;
+        z-index: 2;
+        cursor:help;
+      }
+
+
+      #part1{
+        position: relative;
+        color:#de8a7e;
+        text-shadow: 1px 3px 1px white;
+        width: 300px;
+        left: 70vw;
+        top: 150px;
+        font-size: 20px;
+        opacity: .8;
+        font-family:Helvetica;
+        text-align:right;
+        z-index: 0;
+      }
+
+      #part2{
+        position: absolute;
+        color:#ad7450;
+        text-shadow: 5px 3px 2px #80421b;
+
+        left: 0px;
+        top: 0px;
+        font-size: 200px;
+        opacity: .3;
+        font-family:Helvetica;
+        z-index: -1;
+      }
+      #part3{
+        position:fixed;
+        color:#ffffff;
+        width: 20vw;
+        left: 40vw;
+        top: 10vh;
+        font-size: 20px;
+        opacity: .8;
+        text-align:center;
+        font-family:Helvetica;
+        z-index: 1;
+      }
+
+      #link1:link{
+        color:#ffa74f;
+      }
+      #link1:visited{
+        color:#f5d1ab;
+      }
+      #link1:hover{
+        font-size:90px;
+        color:#ffaa4f;
+        cursor:help;
+      }
+      #link1:active{
+
+      }
+
+
+
+
+
+
+    </style>
+  </head>
+  <body>
+    <script>
+    // function Num(){
+    //   document.getElementById().value=Math.floor(Math.random()*5+5) + Math.ceil(Math.random()*10)/10;
+    // }
+
+    </script>
+
+
+    <img id="img1" src="images/h1.jpg">
+    <img id="img2" src="images/h2.jpg">
+    <img id="img3" src="images/h3.jpg">
+    <img id="img4" src="images/h4.jpg">
+    <img id="img5" src="images/h5.jpg">
+    <img id="img6" src="images/h6.jpg">
+    <img id="img7" src="images/h7.jpg">
+    <img id="img8" src="images/h8.jpg">
+    <img id="img9" src="images/h9.jpg">
+    <img id="icon1"src="images/caticon.png">
+
+
+
+    <h1>
+      <a id=link1 href="https://www.poetryfoundation.org/poems/47787/february-56d2288025b1e" target="_blank">CCC<br>AAA<br>TTT</a>
+    </h1>
+
+    <h4>
+      <div id = part1><a href=week2.html>Winter.</a> Time to eat fat and watch hockey. In the pewter mornings, the cat, a black fur sausage with yellow Houdini eyes, jumps up on the bed and tries to get onto my head. It’s his way of telling whether or not I’m dead. If I’m not, he wants to be scratched; if I am He’ll think of something.</div>
+      <div id = part2>He settles on my chest, breathing his breath of burped-up meat and musty sofas, purring like a washboard. Some other tomcat, not yet a capon, has been spraying our front door, declaring war. It’s all about sex and territory, which are what will finish us off in the long run.</div>
+      <div id = part3>Some cat owners around here should snip a few testicles. If we wise hominids were sensible, we’d do that too, or eat our young, like sharks. But it’s love that does us in. Over and over again, He shoots, he scores! and famine crouches in the bedsheets, ambushing the pulsing eiderdown, and the windchill factor hits thirty below, and pollution pours out of our chimneys to keep us warm. February, month of despair, with a skewered heart in the centre. I think dire thoughts, and lust for French fries with a splash of vinegar. Cat, enough of your greedy whining and your small pink bumhole. Off my <span id=s1>face!</span></div>
+    </h4>
+
+    <!-- <iframe id=youtube1 src="https://www.youtube.com/embed/GurozK-HRTw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe id=youtube2 src="https://www.youtube.com/embed/x0EQXenao0w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+
+    <video id = catv1 loop controls src="images/cat1.MOV" type="video/mov"></video>
+    <video id = catv2 loop controls src="images/cat2.mov" type="video/mov"></video>
+    <video id = bgs1 loop controls src="11.mov" type="video/mov"></video>
+
+
+  </body>
+</html>
