@@ -1,6 +1,6 @@
 $(document).ready(function() {
 alert("ATTENTION!");
-$("#h1").draggable();
+$("h1").draggable();
 $("#icon1").draggable();
 $("#part1").hover(function(){
 $("#catv2").show();
