@@ -252,7 +252,7 @@ function showAll() {
 }
 
 function gotolink() {
-  window.open("https://xinlanye.github.io/lunarvinyl/");
+  window.open("https://heshuhao218.github.io/lunarvinyl/index2.html");
 }
 
 function keyPressed() {
