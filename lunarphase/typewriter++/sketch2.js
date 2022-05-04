@@ -252,7 +252,7 @@ function showAll() {
 }
 
 function gotolink() {
-  window.open("https://heshuhao218.github.io/lunarvinyl/index2.html");
+  window.open("https://heshuhao218.github.io/lunarphase/lunarvinyl/index2.html");
 }
 
 function keyPressed() {
