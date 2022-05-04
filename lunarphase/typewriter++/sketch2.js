@@ -1,11 +1,11 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyDXbfNzZepnxzKMTob0VeD6PQVYRKuuwGk",
-  authDomain: "mind-media-final.firebaseapp.com",
-  databaseURL: "https://mind-media-final-default-rtdb.firebaseio.com",
-  projectId: "mind-media-final",
-  storageBucket: "mind-media-final.appspot.com",
-  messagingSenderId: "73316270802",
-  appId: "1:73316270802:web:78447e3e28466216af230b",
+   apiKey: "AIzaSyBFJY4FOQNTt1f8FU2PcQBjzc6b4yoXfuk",
+    authDomain: "mindmedia-final-95bc1.firebaseapp.com",
+    databaseURL: "https://mindmedia-final-95bc1-default-rtdb.firebaseio.com",
+    projectId: "mindmedia-final-95bc1",
+    storageBucket: "mindmedia-final-95bc1.appspot.com",
+    messagingSenderId: "147909120173",
+    appId: "1:147909120173:web:581690a6bf917f7697f624"
 };
 
 //firebase variables
